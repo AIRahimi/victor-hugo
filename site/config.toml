@@ -9,7 +9,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robots
 
 [params]
 	colorScheme = "scheme-lightbrown"
-	DateFormat = "2 Jan 2006"
+	DateFormat = "15:04 - 2 Januar, 06"
 	description = "Blog for Netlify application"
 	sidebarDescription = ""
 	sidebarFreeText = ""
