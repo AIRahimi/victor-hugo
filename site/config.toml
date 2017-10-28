@@ -16,18 +16,21 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robots
 	copyright = "Hamid Rahimi © 2017. All rights reserved"
 	piwikSiteID = ""
 	piwikURL = ""
-
-[[menu.main]]
-	name = "Hugo"
-	url = "http://gohugo.io"
-
-[[menu.main]]
-	name = "Bootstrap"
-	url = "http://getbootstrap.com"
 	
+[[menu.main]]
+	name = "Posts"
+	url = "/posts/"
+	weight = 1
+
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+	weight = 2
+
 [[menu.main]]
 	name = "Netlify"
 	url = "http://netlify.com"
+	weight = 3
 
 
 
