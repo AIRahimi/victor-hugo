@@ -4,14 +4,14 @@ languageLang = "en"
 title = "AIRahimi"
 author = "Hamid Rahimi"
 canonifyurls = true
-paginate = 5
+paginate = "default"
 
 [params]
 	colorScheme = "scheme-lightbrown"
 	DateFormat = "2 Jan 2006"
 	description = "Blog for Netlify application"
 	sidebarDescription = ""
-	sidebarFreeText = "This is for my Netlify application"
+	sidebarFreeText = ""
 	copyright = "Hamid Rahimi © 2017. All rights reserved"
 	piwikSiteID = ""
 	piwikURL = ""
@@ -28,7 +28,8 @@ paginate = 5
 	name = "Netlify"
 	url = "http://netlify.com"
 
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "section", "taxonomy", "taxonomyTerm"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
