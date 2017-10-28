@@ -5,7 +5,7 @@ title = "AIRahimi"
 author = "Hamid Rahimi"
 canonifyurls = true
 paginate = "default"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 [params]
 	colorScheme = "scheme-lightbrown"
