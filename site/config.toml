@@ -1,9 +1,34 @@
-baseurl = "/"
+baseurl = "http://localhost:3000"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "AIRahimi"
+author = "Hamid Rahimi"
+canonifyurls = true
+paginate = 5
+
+[params]
+	colorScheme = "scheme-lightbrown"
+	DateFormat = "2 Jan 2006"
+	description = "Blog for Netlify application"
+	sidebarDescription = "This is my blog for my Netlify application"
+	sidebarFreeText = ""
+	copyright = "Hamid Rahimi © 2017. All rights reserved"
+	piwikSiteID = ""
+	piwikURL = ""
+
+[[menu.main]]
+	name = "Hugo"
+	url = "http://gohugo.io"
+
+[[menu.main]]
+	name = "Bootstrap"
+	url = "http://getbootstrap.com"
+	
+[[menu.main]]
+	name = "Netlify"
+	url = "http://netlify.com"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "section", "taxonomy", "taxonomyTerm"]
