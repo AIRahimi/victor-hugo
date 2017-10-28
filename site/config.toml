@@ -5,6 +5,10 @@ title = "AIRahimi"
 author = "Hamid Rahimi"
 canonifyurls = true
 paginate = "default"
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 [params]
 	colorScheme = "scheme-lightbrown"
@@ -29,7 +33,4 @@ paginate = "default"
 	url = "http://netlify.com"
 
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
