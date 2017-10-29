@@ -4,7 +4,6 @@ languageLang = "en"
 title = "AIRahimi"
 author = "Hamid Rahimi"
 canonifyurls = true
-paginate = "default"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 [params]
