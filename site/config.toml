@@ -6,11 +6,6 @@ author = "Hamid Rahimi"
 canonifyurls = true
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
-[[redirects]]
-from = "/netlify/*"
-to = "https://www.google.com:443/search?q=%3Asplat"
-status = 301
-force = true
 
 [params]
 	colorScheme = "scheme-lightbrown"
