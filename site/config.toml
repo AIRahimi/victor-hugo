@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 from = "/netlify/*"
 to = "https://www.google.com:443/search?q=%3Asplat"
 status = 301
-force = false
+force = true
 
 [params]
 	colorScheme = "scheme-lightbrown"
