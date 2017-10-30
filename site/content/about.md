@@ -17,6 +17,9 @@ These tasks were given to me by Head of Support @ Netlify, Chris McCraw, followi
 - [X] Suggestion to improve this test / job posting.
 - [X] Provide a link to a documentation for technical/developer-focused project and explain
 - [X] Why do I think SSL/HTTPS is important?
-- [ ] Explain the 2 major challenges around DNS configurations for less-technical internet end-users
-- [ ] Compose 2-paragraph answer to "site won't build"
-- [ ] Redirect from /netlify/anything to google search anything
+- [X] Explain the 2 major challenges around DNS configurations for less-technical internet end-users
+- [X] Compose 2-paragraph answer to "site won't build"
+- [X] Redirect from /netlify/anything to google search anything
+- [ ] Get back in touch with Chris McCraw
+
+Last updated: 23:38 - 30 Januar, 17 
