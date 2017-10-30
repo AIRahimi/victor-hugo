@@ -6,6 +6,12 @@ author = "Hamid Rahimi"
 canonifyurls = true
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
+[[redirects]]
+from = "/netlify/*"
+to = "https://www.google.com:443/search?q=%3Asplat"
+status = 301
+force = false
+
 [params]
 	colorScheme = "scheme-lightbrown"
 	DateFormat = "15:04 - 2 Januar, 06"
