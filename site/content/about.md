@@ -20,6 +20,6 @@ These tasks were given to me by Head of Support @ Netlify, Chris McCraw, followi
 - [X] Explain the 2 major challenges around DNS configurations for less-technical internet end-users
 - [X] Compose 2-paragraph answer to "site won't build"
 - [X] Redirect from /netlify/anything to google search anything
-- [ ] Get back in touch with Chris McCraw
+- [X] Get back in touch with Chris McCraw
 
-Last updated: 23:38 - 30 Januar, 17 
+Last updated: 10:09 - 31 Januar, 17 
